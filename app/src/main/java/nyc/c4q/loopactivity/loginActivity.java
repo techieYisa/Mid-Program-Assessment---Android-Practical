@@ -38,7 +38,7 @@ public class loginActivity extends AppCompatActivity {
             username.setText(login.getString("username", null));
             password.setText(login.getString("password", null));
             checkBox.setChecked(login.getBoolean("isChecked", false));
-    }
+        }
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -79,5 +79,6 @@ public class loginActivity extends AppCompatActivity {
             }
         });
 
+    }
 }
 
